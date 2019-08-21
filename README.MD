@@ -24,21 +24,16 @@ If you want to download and compile the source code, I will get a build script o
 * [WellBehavedFX](https://github.com/FXMisc/WellBehavedFX)
 * [Flowless](https://github.com/FXMisc/Flowless)
 
-## Roadmap
+## Running
 
-Features I intend to implement.
+In order to run CopyCatch, you will need to use the directory chooser to select a folder (or enter the folder manually in the text box) with 2 or more .cpp files in it (all other filetypes will be ignored). You then simply clock the "Run" button and the program will analyze the files for similarity.
 
-* ~~Add, delete, and print relations~~ (Completed 8/17/2019)
-* ~~Insert tuples into relations~~ (Completed 8/17/2019)
-* ~~Add parsing for files containing pre-made lists of commands~~ (Completed 8/17/2019)
-* Delete tuples from relations using qualifiers.
-* Import and export relations as XML files.
-* Perform "Join", "Select", and "Project" on relations.
-* Get unions, intersections, and set differences as well as copys of relations.
-* Create relation "views".
+## Built With
+* [diff-match-patch](https://github.com/google/diff-match-patch) - used for comparing tokenized strings.
 
-## Technologies used
+## Authors
+* Joshua Styger - File processing
+* Brandon Tran - UI Design and Code Viewer programming.
 
-* [XStream](https://x-stream.github.io/) - Used to export relations to XML files.
-
-## Installation
+## License
+* This project is licensed under the Apache 2.0 License - see the LICENSE.md file for details
