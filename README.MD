@@ -36,4 +36,4 @@ In order to run CopyCatch, you will need to use the directory chooser to select 
 * Brandon Tran - UI Design and Code Viewer programming.
 
 ## License
-* This project is licensed under the Apache 2.0 License - see the LICENSE.md file for details
+* This project is licensed under the Apache 2.0 License - see the [LICENSE.md](https://github.com/Joshua-Styger/CopyCatch/blob/master/LICENSE.md) file for details
