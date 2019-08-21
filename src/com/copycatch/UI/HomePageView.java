@@ -57,6 +57,7 @@ public class HomePageView extends Application
         // create all the parts of the GUI
         Button chooseDirectory = new Button("Choose Directory");
         TextField directoryPath = new TextField();
+        directoryPath.setPromptText("e.g. C:\\assignments");
         outputListView = new ListView<>();
         Button runProgram = new Button("Run");
         Label spinnerLabal = new Label("Similarity Threshold");
@@ -204,7 +205,7 @@ public class HomePageView extends Application
                 }
                 outputListView.setItems(null);
                 fileStats = new ArrayList<>();
-                File dir = new File(assignmentDirectory);
+                File dir = new File(directoryPath.getText());
                 File[] directoryListing = dir.listFiles();
                 ConvertFile.InitializeCPPLists();
                 ConvertFile.InitializeCommonKeywordsMap();
